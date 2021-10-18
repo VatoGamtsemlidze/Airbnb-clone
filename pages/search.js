@@ -4,6 +4,7 @@ import {useRouter} from "next/router";
 import { format } from "date-fns";
 import InfoCard from "../components/InfoCard";
 import Map from "../components/Map";
+import Head from "next/head";
 
 function Search( { searchResults } ){
 
@@ -15,6 +16,12 @@ function Search( { searchResults } ){
 
     return(
         <div>
+
+            <Head>
+                <title>Anywhere · Stays · Airways · Tours</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+
             <Header placeholder={`${location} | ${range} | ${noOfGuests} guests`}/>
 
             <main className="flex">

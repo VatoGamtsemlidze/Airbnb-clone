@@ -8,9 +8,9 @@ import Footer from "../components/Footer";
 
 export default function Home({ exploreData, cardsData }) {
     return (
-        <div className="">
+        <div>
           <Head>
-            <title>Create Next App</title>
+            <title>Airbnb: Vacation Rentals, Cabins, Beach Houses, Unique Homes &amp; Experiences</title>
             <link rel="icon" href="/favicon.ico" />
           </Head>
 
